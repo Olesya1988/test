@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header
+        class="d-flex flex-column mb-desk-4 border-bottom-grey border-bottom-sm-0 position-sm-static w-100 position-fixed bg-dark-blue"
+        style="width: 100%;">
+        <div
+            class="d-flex flex-wrap justify-content-between align-items-center px-3 px-sm-0 justify-content-md-center my-4 mb-3 mb-desk-4 position-relative">
+            <div
+                class="burger-menu h-100 d-flex align-items-center gap-4 justify-content-center d-desk-none position-md-absolute top-0 start-0 ms-sm-6">
+                <img class="burger-button" src="/local/templates/tsam/assets/img/burgerMenu.svg" alt=""
+                    style="filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(105deg) brightness(103%) contrast(101%);">
+            </div>
+
+            <div class="d-flex m-0 me-sm-4">
+                <a href="tel:+74951837464" class="text-decoration-none me-4">
+                    <img class="header-sm-phone" src="/local/templates/tsam/assets/img/phoneCall.svg" alt=""
+                        style="filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(105deg) brightness(103%) contrast(101%);">
+                </a>
+
+            </div>
+            <div class="header__info position-absolute end-0 align-items-center me-3 me-lg-6 me-xl-36px me-xxxl-9">
+                <a href="tel:+74951837464" class="text-decoration-none text-grey m-0 header-phone-number">+7 (495)
+                    183-74-64</a>
+                <button
+                    class="call_button text-grey ms-2 ms-lg-3 px-3 py-1 py-xl-9px rounded-pill border border-primary bg-white header-call-button">
+                    <span class="call_button_text d-none d-xl-block">Записаться на прием</span>
+                    <img class="call_button_icon d-block d-xl-none"
+                        src="/local/templates/tsam/assets/img/phoneIncomingIcon.svg" alt="phone">
+                </button>
+                <form action="/search/" method="get">
+                    <input type="text" name="q"
+                        class="header-search-input bg-none rounded-pill border border-primary bg-white">
+                    <img class="ms-2 ms-lg-4 header-search-input-selector cursor-pointer" style="z-index: 10"
+                        src="/local/templates/tsam/assets/img/searchIcon.svg" alt="search">
+                    <a href="https://lk.aviamed.ru/login" target="_blank"><img class="ms-2 ms-lg-4"
+                            src="/local/templates/tsam/assets/img/userIcon.svg" alt="user"></a>
+                </form>
+            </div>
+        </div>
+        <div class="burger-shadow-bg open">
+            <div class="burger-content d-flex flex-column flex-desk-row px-4 px-sm-6 px-desk-5 px-xxl-6 px-lxl-120px pt-3 pt-sm-4 pt-desk-0 justify-content-center align-items-desk-center gap-desk-4 gap-xl-5 position-sticky position-desk-static bg-desk-none bg-dark-blue"
+                style="overflow: auto;">
+                <div id="bxdynamic_LkGdQn_start" style="display:none"></div>
+                <style>
+                    @media (min-width: 1025px) {
+                        .header-menu-content.active {
+
+                            align-content: flex-start;
+                        }
+                    }
+
+                    @media (min-width: 576px) {
+                        .header-menu-title a {
+                            color: #575757 !important;
+                        }
+
+                        .header-menu-title a:hover {
+                            color: #000eb6 !important;
+                        }
+
+
+                    }
+
+
+
+                    .header-menu-title a {
+
+                        color: #b2b2b2 !important;
+
+                    }
+
+                    .header-small-menu-content-item {
+                        color: #b2b2b2 !important;
+                    }
+
+                    .header-menu-content-item a {
+                        text-decoration: none;
+                    }
+
+                    .header-menu-content-item a:hover {
+                        text-decoration: underline;
+                    }
+
+                    @media (min-width: 576px) {
+                        .header-menu-title a {
+                            color: #575757 !important;
+                        }
+
+                        .header-small-menu-content-item {
+                            color: #575757 !important;
+                        }
+
+                        .header-menu-title a:hover {
+                            color: #000eb6 !important;
+                        }
+
+
+                    }
+
+
+
+                    @media (min-width: 1025px) {
+                        .spec {
+                            width: min-content;
+                        }
+
+
+
+                    }
+
+                    @media (min-width: 1600px) {
+                        .spec {
+                            width: max-content;
+                        }
+                    }
+
+
+
+                    .header-small-menu-title {
+
+                        border-bottom: 1px solid #E4E4E4;
+
+                    }
+
+                    @media (min-width: 576px) {
+                        .header-small-menu-title {
+                            border-bottom: 0px solid #E4E4E4;
+
+                        }
+                    }
+                </style>
+                <div class="position-relative d-md-none">
+                    <form action="/search/" method="get"><input type="text" placeholder="Поиск..." name="q"
+                            class="header-search-mobile-input bg-dark-blue bg-sm-white w-100">
+
+                    </form>
+                </div>
+
+
+
+                <div
+                    class="header-services-selector cursor-pointer burger-item justify-content-between fs-desk-12px fs-xxxl-6 fs-temp-14px px-desk-0 text-decoration-none text-primary d-flex align-items-center gap-2 bg-dark-blue text-white">
+                    Услуги <img class="header-services-arrow header-arrow" src="./arrow.png" alt=""
+                        style="filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(105deg) brightness(103%) contrast(101%); width: 20px;">
+                </div>
+                <div class="header-services-content bg-dark-blue bg-sm-white d-flex justify-content-end">
+                    <div class="header-menu d-flex flex-column me-desk-6">
+                        <div data-menu="napravlen"
+                            class="header-menu-title d-flex align-items-center justify-content-between w-100 mb-0 mb-sm-2 lh-120 colorE4E4E4 active">
+                            <a href="/services/" style="text-decoration: none;">Направления</a> <img
+                                class="d-none d-desk-block rotate-90 lh-base" width="15" height="15"
+                                src="/local/templates/tsam/assets/img/caretDownGrey.svg" alt="">
+                        </div>
+                        <div data-menu="diag"
+                            class="header-menu-title d-flex align-items-center justify-content-between w-100 mb-0 mb-sm-2 lh-120 colorE4E4E4">
+                            <a href="/services/diagnostika/" style="text-decoration: none;">Диагностика</a> <img
+                                class="d-none d-desk-block rotate-90 lh-base" width="15" height="15"
+                                src="/local/templates/tsam/assets/img/caretDownGrey.svg" alt="">
+                        </div>
+                        <div data-menu="check"
+                            class="header-menu-title d-flex align-items-center justify-content-between w-100 mb-0 mb-sm-2 lh-120 colorE4E4E4">
+                            <a href="/premium/" style="text-decoration: none;">Check-up</a> <img
+                                class="d-none d-desk-block rotate-90 lh-base" width="15" height="15"
+                                src="/local/templates/tsam/assets/img/caretDownGrey.svg" alt="">
+                        </div>
+                        <div data-menu="hirurgiya"
+                            class="header-menu-title d-flex align-items-center justify-content-between w-100 mb-0 mb-sm-2 lh-120 colorE4E4E4">
+                            <a href="/services/hirurgiya/" style="text-decoration: none;">Хирургия</a> <img
+                                class="d-none d-desk-block rotate-90 lh-base" width="15" height="15"
+                                src="/local/templates/tsam/assets/img/caretDownGrey.svg" alt="">
+                        </div>
+                        <div data-menu="plasticheskaya-hirurgiya"
+                            class="header-menu-title d-flex align-items-center justify-content-between w-100 mb-0 mb-sm-2 lh-120 colorE4E4E4">
+                            <a href="/services/plasticheskaya-hirurgiya/" style="text-decoration: none;">Пластическая
+                                хирургия</a> <img class="d-none d-desk-block rotate-90 lh-base" width="15" height="15"
+                                src="/local/templates/tsam/assets/img/caretDownGrey.svg" alt="">
+                        </div>
+
+                        <div data-menu="endoskopiya"
+                            class="header-menu-title d-flex align-items-center justify-content-between w-100 mb-0 mb-sm-2 lh-120 colorE4E4E4">
+                            <a href="/services/diagnostika/endoskopiya/" style="text-decoration: none;">Эндоскопия</a>
+                        </div>
+                        <div data-menu="recovery"
+                            class="header-menu-title d-flex align-items-center justify-content-between w-100 mb-0 mb-sm-2 lh-120 colorE4E4E4">
+                            <a href="/services/vosstanovitelnaya-meditsina/"
+                                style="text-decoration: none;">Восстановительная медицина</a> <img
+                                class="d-none d-desk-block rotate-90 lh-base" width="15" height="15"
+                                src="/local/templates/tsam/assets/img/caretDownGrey.svg" alt="">
+                        </div>
+                        <div data-menu="vlek"
+                            class="header-menu-title d-flex align-items-center justify-content-between  w-100 mb-0 mb-sm-2 lh-120">
+                            <a href="/vlek/" style="text-decoration: none;">ВЛЭК</a>
+                        </div>
+                        <div data-menu="pmo"
+                            class="header-menu-title d-flex align-items-center justify-content-between  w-100 mb-0 mb-sm-2 lh-120">
+                            <a href="/pmo/" style="text-decoration: none;">ПМО</a>
+                        </div>
+                        <div data-menu="all"
+                            class="header-menu-title d-flex align-items-center justify-content-between  w-100 mb-0 mb-sm-2 lh-120">
+                            <a href="/services/" style="text-decoration: none;">Вce услуги</a>
+                        </div>
+                    </div>
+                    <div data-menu-content="napravlen"
+                        class="header-menu-content header-menu-content--overflow flex-wrap active">
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/ginekologiya/">Акушерство и гинекология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/allergologiya-i-immunologiya/">Аллергология и
+                                иммунология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/andrologiya/">Андрология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/vaktsinatsiya/">Вакцинация</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/gastroenterologiya/">Гастроэнтерология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/dermatovenerologiya-i-dermatologiya/">Дерматовенерология и
+                                дерматология </a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/dietologiya/">Диетология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/infektsionnye-zabolevaniya/">Инфекционные заболевания </a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/kardiologiya/">Кардиология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/koloproktologiya/">Колопроктология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/kosmetologiya/">Косметология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/nevrologiya/">Неврология </a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/onkologiya-i-mammologiya/">Онкология и маммология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/otorinolaringologiya/">Оториноларингология </a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/oftalmologiya/">Офтальмология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/pediatriya/pediatriya/">Педиатрия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/psihiatriya-i-narkologiya/">Психиатрия и наркология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/pulmonologiya/">Пульмонология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/stomatologiya/">Стоматология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/terapiya/">Терапия </a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/travmotologiya-i-ortopediya/">Травматология и ортопедия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/uglublennye-meditsinskie-osmotry-umo/">УМО (Углубленные
+                                медицинские осмотры)</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/urologiya/">Урология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/flebologiya/">Флебология </a>
+                        </div>
+
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/hirurgiya/">Хирургия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/endokrinologiya/">Эндокринология </a>
+                        </div>
+
+                    </div>
+                    <div data-menu-content="all" class="header-menu-content header-menu-content--overflow flex-wrap">
+
+                    </div>
+                    <div data-menu-content="pmo" class="header-menu-content header-menu-content--overflow flex-wrap">
+
+                    </div>
+                    <div data-menu-content="endoskopiya"
+                        class="header-menu-content header-menu-content--overflow flex-wrap">
+
+                    </div>
+                    <div data-menu-content="plasticheskaya-hirurgiya"
+                        class="header-menu-content header-menu-content--overflow flex-wrap">
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/speyslifting/">Спейслифтинг/подтяжка лица</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/rinoplastika/">Ринопластика</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/liposaktsiya/">Липосакция</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/blefaroplastika/">Блефаропластика</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/abdominoplastika/">Абдоминопластика</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/mastektomiya/">Мастэктомия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/mammoplastika/">Маммопластика </a>
+                        </div>
+
+
+                    </div>
+                    <div data-menu-content="diag" class="header-menu-content header-menu-content--overflow flex-wrap">
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/diagnostika/laboratoria/">Анализы</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/diagnostika/veloergometriya/">Велоэргометрия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/diagnostika/densitometriya/">Денситометрия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/diagnostika/tsifrovaya-dermatoskopiya/">Дерматоскопия FotoFinder</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/diagnostika/komputernaya-tomografiya/">КТ (компьютерная томография)</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/diagnostika/magnitno-rezonansnaya-tomografiya/">МРТ (магнитно-резонансная
+                                томография)</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/diagnostika/rentgenografiya/">Рентгенография </a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/diagnostika/ultrazvukovaya-diagnostika/">УЗИ (ультразвуковое
+                                исследование)</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/diagnostika/flyuorografiya/">Флюорография</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/diagnostika/funktsionalnaya-diagnostika/">Функциональная диагностика</a>
+                        </div>
+
+
+                    </div>
+                    <div data-menu-content="check" class="header-menu-content flex-column flex-wrap">
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/premium/muzhskoe-zdorovie/">Программы обследования для мужчин</a>
+
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/premium/zhenskoye-zdorovie/">Программы обследования для женщин</a>
+                        </div>
+
+                    </div>
+                    <div data-menu-content="hirurgiya"
+                        class="header-menu-content header-menu-content--overflow flex-wrap">
+
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/ginekologiya/">Акушерство и гинекология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/bariatricheskaya-khirurgiya/">Бариатрическая хирургия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/koloproktologiya/">Колопроктология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/onkologiya-i-mammologiya/">Онкология и маммология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/operativnaya-urologiya/">Оперативная урология</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/hirurgiya/">Общая хирургия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/travmotologiya-i-ortopediya/">Травматология и ортопедия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/hirurgiya-stopy/">Хирургия стопы</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/napravleniya/flebologiya/">Флебология </a>
+                        </div>
+
+
+                    </div>
+                    <div data-menu-content="recovery" class="header-menu-content flex-column flex-wrap">
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/premium/universalnye-programmy/vitaminnye-kapelnitsy/">Витаминные капельницы</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/vosstanovitelnaya-meditsina/gipoksicheskie-trenirovki/">Гипоксические
+                                тренировки</a>
+                        </div>
+
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/vosstanovitelnaya-meditsina/infrakrasnaya-sauna/">Инфракрасная сауна</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/vosstanovitelnaya-meditsina/kislorodno-gelievaya-terapiya/">Кислородно-гелиевая
+                                терапия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/vosstanovitelnaya-meditsina/lechebnaya-fizicheskaya-kultura/">Лечебная
+                                физическая культура</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/vosstanovitelnaya-meditsina/manualnaya-terapiya/">Мануальная терапия</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/vosstanovitelnaya-meditsina/massazh/">Массаж</a>
+                        </div>
+                        <div
+                            class="header-menu-content-item d-flex align-items-center justify-content-between  mb-3 lh-120 me-4 me-lxl-6">
+                            <a href="/services/vosstanovitelnaya-meditsina/fizioterapiya/">Физиотерапия</a>
+                        </div>
+
+
+                    </div>
+                    <div data-menu-content="vlek" class="header-menu-content flex-column flex-wrap">
+                    </div>
+                    <div class="header-menu-banner overflow-auto pb-2 d-none d-desk-flex flex-column">
+                        <img width="259" height="320" class="rounded-20 mb-18px"
+                            src="/local/templates/tsam/assets/img/photo_2023-11-03_13-35-17.jpg" alt="">
+                        <p class="text-black fs-24px lh-120 mb-18px">Эндоскопия во сне</p>
+                        <button onclick="location.href='https://aviamed.ru/endoscopy/'" class=" 
+              font-medium text-white bg-primary border-0
+              px-4 py-12px py-desk-3 py-sm-11p5px px-sm-28px py-desk-15p5px 
+              d-flex gap-12 align-items-center rounded-pill m-0 w-fit">
+                            <span class="inherit nowrap">Узнать подробнее <img
+                                    src="/local/templates/tsam/assets/img/arrowRightWhite.svg" alt=""></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="cursor-pointer header-small-menu-selector mb-desk-0 burger-item fs-desk-12px fs-xxxl-6 fs-temp-14px px-desk-0 text-decoration-none text-primary d-flex flex-column flex-sm-row align-items-center position-desk-relative w-100 w-sm-auto text-white"
+                    style="white-space: nowrap; border-bottom: 0px;">
+                    <div
+                        class="d-flex align-items-center justify-content-between align-items-center header-small-menu-title gap-2 w-100">
+                        О нас<img class="header-arrow header-small-menu-arrow" src="./arrow.png" alt=""
+                            style="filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(105deg) brightness(103%) contrast(101%); width: 20px;">
+                    </div>
+                    <div class="header-small-menu-content bg-blue bg-sm-white">
+                        <div
+                            class="d-flex flex-column align-items-start align-items-desk-center px-sm-3 mt-5  mt-desk-0">
+
+                            <a href="/about/"
+                                class="fs-6 header-small-menu-content-item text-decoration-none mt-sm-4 mb-sm-4 colorE4E4E4 text-white">О
+                                ЦАМ</a>
+                            <a href="/leadership/"
+                                class="fs-6 header-small-menu-content-item text-decoration-none mb-sm-4 colorE4E4E4">Руководство</a>
+                            <a href="/legal/"
+                                class="fs-6 header-small-menu-content-item text-decoration-none mb-sm-4 colorE4E4E4">Документация</a>
+                            <a href="/patsientu/"
+                                class="fs-6 header-small-menu-content-item text-decoration-none mb-sm-4 colorE4E4E4">Пациенту</a>
+                            <a href="/reviews/"
+                                class="fs-6 header-small-menu-content-item text-decoration-none mb-sm-4 colorE4E4E4">Отзывы</a>
+                            <a href="/articles/"
+                                class="fs-6 header-small-menu-content-item text-decoration-none mb-sm-4 colorE4E4E4">Статьи</a>
+
+                            <a href="/video/"
+                                class="fs-6 header-small-menu-content-item text-decoration-none mb-sm-4 colorE4E4E4">Видео</a>
+
+                            <!--<a href="/entity-programs/" class="fs-6 header-small-menu-content-item text-decoration-none mb-sm-4">Корпоративным клиентам</a>-->
+                        </div>
+                    </div>
+                </div>
+                <a href="/contacts/"
+                    class="d-flex align-items-center burger-item fs-desk-12px fs-xxxl-6 fs-temp-14px px-desk-0 text-decoration-none text-primary text-white">Контакты</a>
+                <div id="bxdynamic_LkGdQn_end" style="display:none"></div>
+            </div>
+        </div>
+    </header>
+    <script src="./index.js"></script>
+</body>
+
+</html>
