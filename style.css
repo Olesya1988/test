@@ -119768,7 +119768,7 @@ ol.li-c-blue li:before {
     padding-left: 0;
   }
 }
-.header-services-content.open {
+.header-services-content.open2 {
   padding: 16px 0;
   max-height: min(100vh - 129px, 653px);
 }
@@ -119903,7 +119903,7 @@ ol.li-c-blue li:before {
     right: -150%;
   }
 }
-.header-small-menu-content.open {
+.header-small-menu-content.open2 {
   max-height: 600px;
 }
 .header-small-menu-content-item {
